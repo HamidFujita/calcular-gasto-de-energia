@@ -1,0 +1,73 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte usada no texto */
+    background-color: #f4f4f9; /* Cor de fundo clara */
+    margin: 0; /* Remove margens externas do body */
+    padding: 0; /* Remove preenchimento interno */
+    color: #333; /* Define a cor padrão do texto (cinza escuro) */
+}
+
+/* Cabeçalho da página */
+header {
+    background-color: #009688; /* Cor de fundo em verde-água */
+    color: white; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 1rem; /* Espaçamento interno de 1 rem */
+}
+
+/* Área principal (seções) */
+section {
+    padding: 2rem; /* Espaçamento interno maior nas seções */
+}
+
+/* Títulos principais e secundários */
+h1, h2 {
+    color: #00695c; /* Verde escuro para destaque nos títulos */
+}
+
+/* Parágrafos */
+p {
+    font-size: 1.1rem; /* Tamanho de fonte um pouco maior para facilitar a leitura */
+    line-height: 1.6;  /* Espaçamento entre linhas */
+}
+
+/* Define a largura máxima do conteúdo e centraliza */
+.container {
+    max-width: 900px; /* Largura máxima de 900 pixels */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Caixa branca com sombra e bordas arredondadas */
+.card {
+    background-color: white; /* Fundo branco */
+    border-radius: 8px; /* Bordas levemente arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve ao redor */
+    padding: 1.5rem; /* Espaço interno */
+    margin: 1.5rem 0; /* Espaço entre os cartões */
+}
+
+/* Espaçamento entre os campos do formulário */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* Estilização dos campos de entrada e do botão */
+input, button {
+    padding: 0.5rem; /* Espaço interno dos elementos */
+    margin: 0.5rem 0; /* Espaço externo superior e inferior */
+    width: 100%; /* Ocupa toda a largura do container */
+    font-size: 1rem; /* Tamanho de fonte padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid #ddd; /* Borda cinza clara */
+}
+
+/* Rodapé fixo na parte inferior da tela */
+footer {
+    background-color: #00695c; /* Mesma cor verde escura do título */
+    color: white; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 1rem; /* Espaço interno */
+    position: fixed; /* Fixa o rodapé no fim da tela */
+    bottom: 0; /* Gruda o rodapé na parte inferior */
+    width: 100%; /* Ocupa toda a largura da tela */
+}
